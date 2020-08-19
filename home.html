@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<style>
+.center {
+	width:900px;
+	margin: auto;
+	 margin-top: 40px;
+  text-align: center;
+  background-color:DARKBLUE;
+  color: white;
+}
+
+.formStyle {
+	width:900px;
+	margin: auto;
+  background-color:DARKBLUE;
+}
+
+
+.buttonCenter{
+width:900px;
+height:200px;
+	margin: auto;
+ text-align: center;
+  background-color:DARKBLUE;
+  color: white;
+ }
+
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=reset] {
+  
+  width: 25%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-color: MEDIUMBLUE;
+}
+
+input[type=submit] {
+  
+  width: 25%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: MEDIUMBLUE;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.h3{
+ margin-right: 25em;
+ }
+</style>
+
+<body style="background-color:#499DF5;">
+<div class="center">
+<h1>TWITTER SENTIMENT  ANALYSIS  <img src="https://image.flaticon.com/icons/png/512/23/23931.png" alt="logo" width="60" height="60" align="right"> </h1>
+</div>
+<div class="buttonCenter">
+  <form action="process" method="post" id="form"> 
+    <h3 class="h3"> Enter tweets you want to see : </h3>
+    <input type="text" id="hashtag" name="hashtag" placeholder="Hashtag or search topic">
+    <input id="btnSubmit" type="submit"  value="SEARCH">
+	
+  </form>
+ 
+</div>
+<h3 style="text-align: center; color: #120A8F;font-style: italic;  margin-top: 80px; text-decoration: underline;"> Libraries used: TextBlob and Tweepy</h3>
+<p style="text-align: center; color: #120A8F; font-style: italic;">TextBlob is a library for processing textual data.It provides API for common NLP tasks.
+Tweepy is a Python library for accessing the Twitter API.</p>
+ <h3 style="text-align: center;font-style: italic; color: #120A8F; text-decoration: underline;">Flask is used to build the web application</h3>
+ 
+
+</body>
+</html>
