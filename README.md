@@ -10,6 +10,7 @@
  
  
  ---------------Execution steps:-----------------------
+ 
  Create a folder(for example "app"). inside that folder save the pyhton code. in 'app' folder create  new folder with name 'templates' and store the .html files in it. Execute the python script.
 
 
